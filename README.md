@@ -3,6 +3,9 @@ This project aims to develop an automated system for the detection of malignant 
 
 Key Features:
 Data Preprocessing: The project begins with the preprocessing of medical images, including normalization, resizing, and augmentation, to improve model robustness.
+
 CNN Architecture: A custom CNN model is designed to extract meaningful features from brain MRI scans, effectively distinguishing between malignant and non-malignant tissues.
+
 Decision Tree Classification: The extracted features are then fed into a Decision Tree classifier, which is trained to make final predictions on the presence of malignant tumors.
+
 Performance Evaluation: The model's performance is evaluated using metrics such as accuracy, precision, recall, and F1-score, with comparisons against traditional diagnostic methods.
